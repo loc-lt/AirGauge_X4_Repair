@@ -1,0 +1,13 @@
+,Title,Threshold,Special Low,Min,Max,Special High,Type,InUsed
+Ach,40F8,40.1,40.025,40.025,40.064,40.067,ID,1
+Bch,40H7,40.05,40.0,40.0,40.005,40.028,ID,1
+Cch,Channel C,40.0,40.025,40.05,40.05,40.05,OD,1
+Dch,Channel D,40.025,40.064,40.1,40.1,40.1,ID,0
+Ech,Channel E,40.0,40.025,40.05,40.05,40.05,ID,0
+Fch,Channel F,40.0,40.025,35.0,40.05,40.05,OD,0
+Gch,Channel G,40.025,40.064,40.1,40.1,40.1,ID,0
+Hch,Channel H,40.0,40.025,40.05,40.05,40.05,ID,0
+Ich,Channel I,40.0,40.025,40.05,40.05,40.05,OD,0
+Jch,Channel J,1.0,2.0,3.0,40.1,6.0,OD,0
+Kch,Channel K,40.0,40.025,40.05,40.05,40.05,ID,0
+Lch,Channel L,40.0,40.025,40.05,40.05,40.05,OD,0

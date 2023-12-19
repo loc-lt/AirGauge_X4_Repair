@@ -501,8 +501,11 @@ def read_meter():
                                 # Thì oke thôi, bắt đầu trừ - 1
                                 count[idx]-=1
 
-                                # Trừ cho tới khi nào count[idx] = 0 và số lượng phần tử trong danh sách
+                                # Trừ cho tới khi nào count[idx] = 0 và số lượng phần tử trong danh sách phàn tử > 5
                                 if count[idx] == 0 and len(lstvalue[idx])>5:
+
+                                    # Nếu giá trị min < special low
+                                    # Xét các điều kiện như trong hình vẽ trên zalo
                                     if vMin[idx] < Alllow[idx]:
                                         if Type[idx] == "ID" and waitsave[idx] and Allresult[idx] != 'NG':
                                             recheck = True

@@ -1,7 +1,8 @@
 import matplotlib.pyplot as plt
 
-with open("data20231221_144049.txt",'r') as filename:
+with open("21122023_1.txt",'r') as filename:
     txt = filename.read()
+
 list_total = txt.split()
 list_a = []
 list_b = []
@@ -20,6 +21,7 @@ for i in range(len(list_a)):
 
 print(max(list_a))
 print(max(list_b))
+
 min_a = [15.989]*len(list_a)
 max_a = [15.999]*len(list_a)
 thresh_a = [15.980]*len(list_a)
@@ -42,7 +44,7 @@ plt.plot(x_axis, min_b)
 plt.plot(x_axis, max_b)
 plt.plot(x_axis, thresh_b)
 
-plt.title('title name')
-plt.xlabel('x_axis name')
-plt.ylabel('y_axis name')
+plt.title('Đo đường kính trong (Kênh B)')
+plt.xlabel('Lần đo thứ')
+plt.ylabel('Đường kính trong')
 plt.show()
